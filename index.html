@@ -17,7 +17,7 @@
           </audio>
           
           <!-- Button to play music -->
-          <button class="music-button" onclick="playMusic()">Play Music</button>
+          <button class="music-button" onclick="playMusic()">	&#127908;</button>
           <script>
             function playMusic() {
               var audio = document.getElementById("myAudio");
@@ -31,16 +31,45 @@
               }
             }
           </script>
+            
+            <Button class="candel" onclick="playGif('gif1')">	&#129512; </Button>
+              <img class="gif" id="gif1" src="candelblow.gif" alt="firstAnimated GIF">
+           
+            <button class="cake-button" onclick="playGif('gif2')"> &#127874; </button>
+              <img class="gif"id="gif2" src="cakes-cutting.gif" alt="secondAnimated GIF">
+ 
+           <script>
+                    // JavaScript function to play the GIF
+                    function playGif(gif1) {
+  var gif = document.getElementById(gif1);
+  gif.style.display = 'block';
+  // Hide the GIF after 2 times of showing
+  setTimeout(function() {
+    gif.style.display = 'none';
+  }, 2000); // 4000 milliseconds = 4 seconds (2 times for a 2-second GIF)
+}
+               </script>
+               
+               <script>
+                function playGif(gif2) {
+  var gif = document.getElementById(gif2);
+  gif.style.display = 'block';
+  // Hide the GIF after 2 times of showing
+  setTimeout(function() {
+    gif.style.display = 'none';
+  }, 8000); // 4000 milliseconds = 4 seconds (2 times for a 2-second GIF)
+}
+               </script>
+               
 
-
-          <body>
+             <body>
 
         
         
         <div class="card">
             <div class="outside">
                 <h1> Happy Birthday Vondu &#128540;</h1>
-                <h3>My dear best friend,may god bless you with abundant joy on your birthday and always!<br>
+                <h3>My dear best friend,may krishna bless you with abundant joy on your birthday and always!<br>
                     Thank you for always being by my side and having my back.</h3>
                     <img class="image" src="img3.jpeg">
             </div>
@@ -51,18 +80,34 @@
 
         <div class="block">
             <div class="frames frame1">
-                <img src="img1.jpeg" alt="">
-                <p>Keep smiling,Keep shining</p>
+                <img src="img4.jpeg" alt="">
+                <p>keep irritating me and be happy with it. U deserve the world (including ur gopi's).  </p>
             </div>
             <div class="frames frame2">
-                <img src="img2.jpeg" alt="">
-                <p>On this occasion bring you lot of happiness and success
+                <img src="img1.jpeg" alt="">  
+                <p>On this occasion bring U lot of happiness and success (actualy no need to tell i know u will)
                 </p>
             </div>
-
+        
+            <div class="frames frame3">
+              <img src="img2.jpeg" alt="">  
+              <p>On this occasion bring U lot of happiness and success (actualy no need to tell i know u will)
+              </p>
+         
+        </div>
            
         </div>
-
+       
     </div>
+    <style>
+.link{
+  font-size: 20px;
+  font-style:bold;
+  font-display:initial;
+  color: rgb(248, 7, 7);
+  margin-left: 36em;
+}
+    </style>
+
 </body>
 </html>
